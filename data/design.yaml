@@ -4,12 +4,12 @@ logo_or_title:
   title: Complete Muscle Therapy
   favicon: ''
 main_image:
-  hero_subtitle: Kitchen and Bath designs by Carly Kalbrunner
+  hero_subtitle: ''
   home_background_image: "/uploads/kichen.jpg"
   video_background: true
   upload_video: ''
   add_url_to_youtube_video: pY2CWYxUbrM
-  hero_title: Modern Home Designs
+  hero_title: Complete Muscle Therapy
   align_hero_text: has-text-centered
   add_a_button:
     hero_button_text: GET IN TOUCH
@@ -17,7 +17,7 @@ main_image:
     open_in_new_tab: false
     hero_button_text_color: "#000000"
     hero_button_bg_color: "#ffffff"
-  add_mp4_link: https://hungryram.s3-us-west-1.amazonaws.com/bath.mp4
+  add_mp4_link: https://hungryram.s3-us-west-1.amazonaws.com/massage.mp4
   add_youtube_background_video: false
 home_sections:
 - template: intro
