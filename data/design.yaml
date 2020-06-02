@@ -8,7 +8,7 @@ main_image:
   home_background_image: "/uploads/main-1.jpg"
   video_background: false
   upload_video: ''
-  add_url_to_youtube_video: pY2CWYxUbrM
+  add_url_to_youtube_video: ''
   hero_title: Complete Muscle Therapy
   align_hero_text: has-text-centered
   add_a_button:
@@ -18,7 +18,7 @@ main_image:
     hero_button_text_color: "#000000"
     hero_button_bg_color: "#ffffff"
   add_mp4_link: ''
-  add_youtube_background_video: false
+  add_youtube_background_video: true
 home_sections:
 - template: intro
   intro_title: Full Service Kitchen & Bath Design & Remodeling
