@@ -451,7 +451,6 @@ a.navbar-item img {
     div.socialheader {
         background: #ccc;
         padding: 10px;
-        text-align: right;
     }
 }
 
@@ -462,13 +461,21 @@ div#navbarMenuHeroC {
     flex: 33.3%;
 }
 
+div.socialheader {
+    text-align: right;
+}
+
 div.socialheader ul li {
     display: inline-block;
     padding: 0 10px;
 }
 
+div.navbar-end {
+    margin: 0 auto;
+}
+
 div.socialheader ul li i {
-    color: #414347;
+    color: #fff;
 }
 
 .navbar-end {
@@ -483,12 +490,12 @@ div.socialheader ul li i {
 
 .navbar-brand h1 {
     font-size: 1.3em;
-    color: white;
+    color: #fff;
 }
 
-a.navbar-item {
+/* a.navbar-item {
     margin: 0 auto;
-}
+} */
 
 /* HERO CONTAINER  */
 
