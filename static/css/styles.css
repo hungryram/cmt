@@ -514,6 +514,7 @@ body .hero-body h1.title {
     line-height: 2;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
+    font-weight: 400;
 }
 
 .hero-body h2.subtitle {
@@ -575,7 +576,7 @@ body .hero-body h1.title {
     height: 100%;
     width: 100%;
     position: absolute;
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(0,0,0,0);
 }
 
 
