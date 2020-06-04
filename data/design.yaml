@@ -21,6 +21,51 @@ main_image:
   add_youtube_background_video: true
 home_sections:
 - template: intro
+  intro_body: |-
+    At CK Designs, we take as much pride in your home as you do! When you trust us with your next project, we guarantee unmatched dedication to a job well done and your complete satisfaction.
+
+    Give us a call today to learn more or to schedule your free in-home consultation!
+  intro_title: Free In-Home Consultation
+  intro_align_text: has-text-centered
+  intro_add_button:
+    button_label: ''
+    intro_button_link: ''
+    intro_open_in_a_new_tab: false
+    intro_button_background_color: ''
+    intro_button_text_color: ''
+  add_photo: ''
+  intro_background_color: ''
+  intro_enable_white_text_color: false
+- template: cta
+  call_to_action_one:
+    icon_one_cta: fas fa-building
+    title_one_cta: Service One
+    body_text_one_cta: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda,
+      iure quisquam asperiores quod voluptatem libero aliquid repellendus et velit,
+      dignissimos soluta repellat dolorem sed vel ab magni vitae incidunt? Iusto!
+    image_one_cta: ''
+    cta_one_add_a_link: ''
+    cta_two_new_tab: false
+  call_to_action_two:
+    body_text_two_cta: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda,
+      iure quisquam asperiores quod voluptatem libero aliquid repellendus et velit,
+      dignissimos soluta repellat dolorem sed vel ab magni vitae incidunt? Iusto!
+    title_two_cta: Service 2
+    icon_two_cta: fas fa-battery-quarter
+    image_two_cta: ''
+    cta_two_add_a_link: ''
+    cta_two_new_tab: false
+  call_to_action_three:
+    icons_three_cta: fas fa-bed
+    title_three_cta: Service 3
+    body_text_three_cta: Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      Assumenda, iure quisquam asperiores quod voluptatem libero aliquid repellendus
+      et velit, dignissimos soluta repellat dolorem sed vel ab magni vitae incidunt?
+      Iusto!
+    image_three_cta: ''
+    cta_three_add_a_link: ''
+    cta_three_new_tab: false
+- template: intro
   intro_title: Full Service Kitchen & Bath Design & Remodeling
   intro_body: For complete expert top-to-bottom residential design in the Fayetteville,
     GA, and surrounding area, call on CK Designs Kitchen & Bath. We’re your locally
@@ -40,22 +85,6 @@ home_sections:
   project_text_align: ''
   project_title: ''
   project_subtitle: ''
-- template: intro
-  intro_body: |-
-    At CK Designs, we take as much pride in your home as you do! When you trust us with your next project, we guarantee unmatched dedication to a job well done and your complete satisfaction.
-
-    Give us a call today to learn more or to schedule your free in-home consultation!
-  intro_title: Free In-Home Consultation
-  intro_align_text: has-text-centered
-  intro_add_button:
-    button_label: ''
-    intro_button_link: ''
-    intro_open_in_a_new_tab: false
-    intro_button_background_color: ''
-    intro_button_text_color: ''
-  add_photo: ''
-  intro_background_color: ''
-  intro_enable_white_text_color: false
 - template: featured-blog
   blog_align_title_text: has-text-centered
   blog_title: Our Latest Posts
