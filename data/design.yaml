@@ -56,7 +56,7 @@ home_sections:
     cta_two_add_a_link: ''
     cta_two_new_tab: false
   call_to_action_three:
-    icons_three_cta: fas fa-bed
+    icons_three_cta: far fa-bell
     title_three_cta: Service 3
     body_text_three_cta: Lorem ipsum dolor, sit amet consectetur adipisicing elit.
       Assumenda, iure quisquam asperiores quod voluptatem libero aliquid repellendus
