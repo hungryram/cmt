@@ -74,14 +74,14 @@ home_sections:
     fixtures, lighting, tile backsplash, tile floor, tile showers, flooring, and more!
   add_photo: "/uploads/pain.jpg"
   intro_align_text: has-text-left
-  intro_background_color: "#FFFFFF"
+  intro_background_color: "#101010"
   intro_add_button:
     button_label: Learn more
     intro_button_link: "/contact"
     intro_open_in_a_new_tab: false
     intro_button_background_color: "#464646"
     intro_button_text_color: "#FFFFFF"
-  intro_enable_white_text_color: false
+  intro_enable_white_text_color: true
   intro_subtitle: Orange County
 - template: featured-blog
   blog_align_title_text: has-text-centered
