@@ -36,16 +36,16 @@
                         <div class="home-card">
                             <div class="card-image">
                                 {{ if .Params.featured_image}}
-                              <figure class="image is-4by5">
+                              <figure class="image is-1by1">
                                 <img src="{{ .Params.featured_image }}" alt="Featured blog image" style="object-fit: cover;">
                               </figure>
                               {{ else }}
                               <figure class="image is-16by9">
-                                <img src="http://www.hungryram.com/uploads/nophotohouse.jpg" alt="Featured blog image" style="object-fit: cover;">
+                                <img src="https://www.hungryram.com/uploads/nophotohouse.jpg" alt="Featured blog image" style="object-fit: cover;">
                               </figure>
                               {{ end }}
                             </div>
-                            <div class="card-content content home-blog-content">
+                            <div class="content home-blog-content">
                               <div class="media-content">
                                 <time>{{.Date.Format "January 2, 2006" }}</small><br>
                                 <h3 class="subtitle is-5">{{ .Title }}</h3>

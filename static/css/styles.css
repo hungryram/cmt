@@ -728,24 +728,34 @@ a.descending {
     color: #414347;
 }
 
+.home-blog-content {
+    padding: 10px 0;
+}
+
 .home-blog-content p {
     font-size: 14px;
 }
 
 .home-blog-content a {
     font-size: 20px;
-    border-left: 1px solid #414347;
-    padding-left: 10px;
 }
 
-.home-blog-content a:hover {
-    border-left: 10px solid #414347;
-}
 
 /* BLOG SINGLE */
 
 .author-blog {
     margin-top: 100px;
+}
+
+/* SUBSCRIPTION */
+
+.subscription__container {
+    background:#393939;
+}
+
+#mc_embed_signup input#mce-EMAIL {
+    border-radius: 0;
+    border: 0;
 }
 
 /* AGENT LIST PAGE */

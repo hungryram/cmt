@@ -39,7 +39,7 @@ home_sections:
   intro_subtitle: Orange County Massage
 - template: cta
   call_to_action_one:
-    icon_one_cta: fas fa-building
+    icon_one_cta: 
     title_one_cta: Service One
     body_text_one_cta: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda,
       iure quisquam asperiores quod voluptatem libero aliquid repellendus et velit,
@@ -52,12 +52,12 @@ home_sections:
       iure quisquam asperiores quod voluptatem libero aliquid repellendus et velit,
       dignissimos soluta repellat dolorem sed vel ab magni vitae incidunt? Iusto!
     title_two_cta: Service 2
-    icon_two_cta: fas fa-battery-quarter
+    icon_two_cta: 
     image_two_cta: ''
     cta_two_add_a_link: ''
     cta_two_new_tab: false
   call_to_action_three:
-    icons_three_cta: far fa-bell
+    icons_three_cta: 
     title_three_cta: Service 3
     body_text_three_cta: Lorem ipsum dolor, sit amet consectetur adipisicing elit.
       Assumenda, iure quisquam asperiores quod voluptatem libero aliquid repellendus
