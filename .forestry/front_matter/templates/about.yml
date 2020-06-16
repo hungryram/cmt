@@ -1,4 +1,19 @@
 ---
 label: About
 hide_body: false
-fields: []
+fields:
+- name: about_subtitle
+  type: text
+  config:
+    required: false
+  label: About Subtitle
+- name: about_title
+  type: text
+  config:
+    required: false
+  label: About Title
+- name: search_engine_optimization
+  type: include
+  config: {}
+  template: seo
+  label: Search Engine Optimization
