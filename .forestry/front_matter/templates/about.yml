@@ -2,6 +2,11 @@
 label: About
 hide_body: false
 fields:
+- name: Title
+  type: text
+  config:
+    required: false
+  label: Page Title
 - name: about_subtitle
   type: text
   config:
