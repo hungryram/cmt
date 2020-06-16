@@ -104,7 +104,7 @@ footer:
 colors:
   text_link_colors: rgb(195, 151, 78)
   button_background_colors: "#2C2C2C"
-  header_background_color: "#FFFFFF"
+  header_background_color: "#181A18"
   navigation_link_color: "#BA0000"
-  enable_black_menu_items: true
+  enable_black_menu_items: false
 upload_image: ''
