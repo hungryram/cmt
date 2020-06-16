@@ -1,15 +1,44 @@
 {{ define "main" }}
-
-<div class="section agent-lists">
-    <div class="container">
-      <div class="columns">
-        <div class="column">
-          {{ partial "breadcrumbs.html" . }}
+{{ $contactSocial := .Site.Data.profile.social_accounts }}
+                    {{ $locationContact := .Site.Data.profile.location_information }}
+                    {{ $contactPage := .Site.Data.profile.primary_contact }}
+<div class="contact-cta">
+    <div class="section">
+        <div class="container">
+             <div class="columns has-text-centered has-text-white">
+                 <div class="column">
+                     <h2 class="subtitle is-4 has-text-white">Call Me</h2>
+                     {{ if gt ( len $contactPage.mobile_phone ) 0 }}{{ if $contactPage }}<p> {{ $contactPage.mobile_phone }}</p> {{ end }}{{ end }}
+                     {{ if gt ( len $contactPage.phone ) 0 }}{{ if $contactPage }}<p>{{ $contactPage.phone }}</p> {{ end }}{{ end }}
+                 </div>
+                 <div class="column">
+                    <h2 class="subtitle is-4 has-text-white">Location</h2>
+                    {{ if gt ( len $locationContact.address ) 0 }}{{ if $locationContact }}<p>{{ $locationContact.address }} {{ $locationContact.city }} {{ $locationContact.state }} {{ $locationContact.zip_code }}</p> {{ end }}{{ end }}
+                </div>
+                 <div class="column">
+                     <h2 class="subtitle is-4 has-text-white">Email</h2>
+                     {{ if gt ( len $contactPage.email ) 0 }}{{ if $contactPage }}<p>{{ $contactPage.email }}</p> {{ end }}{{ end }}
+                 </div>
+                 <div class="column">
+                     <h2 class="subtitle is-4 has-text-white">Connect</h2>
+                     <ul class="contact-page-social">
+                        {{ if $contactSocial.facebook }}<li><a href="{{ $contactSocial.facebook }}" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>{{ end }}
+                        {{ if $contactSocial.instagram }}<li><a href="{{ $contactSocial.instagram }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>{{ end }}
+                        {{ if $contactSocial.linkedin }}<li><a href="{{ $contactSocial.linkedin }}" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>{{ end }}
+                        {{ if $contactSocial.pinterest }}<li><a href="{{ $contactSocial.pinterest }}" target="_blank" title="Pinterest"><i class="fab fa-pinterest-p"></i></a></li>{{ end }}
+                        {{ if $contactSocial.houzz }}<li><a href="{{ $contactSocial.houzz }}" target="_blank" title="Houzz"><i class="fab fa-houzz"></i></a></li>{{ end }}
+                      </ul>
+                 </div>
+             </div>
         </div>
-      </div>
+    </div>
+</div>
+
+<div class="form-container">
+<div class="section">
+    <div class="container">
         <div class="columns">
-            <div class="column is-8">
-                <div class="box">
+            <div class="column">
                   <h2 class="title is-4">{{ .Title }}</h2>
                   <div class="contact-content content">
                     {{ .Params.contact_content }}
@@ -52,63 +81,10 @@
                       </div>
                     </form>
                 </div>
-            </div>
-            
-            <div class="column">
-              <div class="box">
-                  <h2 class="subtitle is-6">Contact Information<h2>
-                    {{ $contactSocial := .Site.Data.profile.social_accounts }}
-                    {{ $locationContact := .Site.Data.profile.location_information }}
-                    {{ $contactPage := .Site.Data.profile.primary_contact }}
-                                <ul class="contact-page-icons">
-                                  {{ if gt ( len $locationContact.address ) 0 }}{{ if $locationContact }}<li><i class="fas fa-map-marker-alt"></i> {{ $locationContact.address }} {{ $locationContact.city }} {{ $locationContact.state }} {{ $locationContact.zip_code }}</li> {{ end }}{{ end }}
-                                  {{ if gt ( len $contactPage.email ) 0 }}{{ if $contactPage }}<li><i class="far fa-envelope"></i> {{ $contactPage.email }}</li> {{ end }}{{ end }}
-                                {{ if gt ( len $contactPage.mobile_phone ) 0 }}{{ if $contactPage }}<li><i class="fas fa-mobile-alt"></i> {{ $contactPage.mobile_phone }}</li> {{ end }}{{ end }}
-                                {{ if gt ( len $contactPage.phone ) 0 }}{{ if $contactPage }}<li><i class="fas fa-phone-alt"></i> {{ $contactPage.phone }}</li> {{ end }}{{ end }}
-                              </ul>
-                              <ul class="contact-page-social">
-                                {{ if $contactSocial.facebook }}<li><a href="{{ $contactSocial.facebook }}" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>{{ end }}
-                                {{ if $contactSocial.instagram }}<li><a href="{{ $contactSocial.instagram }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>{{ end }}
-                                {{ if $contactSocial.linkedin }}<li><a href="{{ $contactSocial.linkedin }}" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>{{ end }}
-                                {{ if $contactSocial.pinterest }}<li><a href="{{ $contactSocial.pinterest }}" target="_blank" title="Pinterest"><i class="fab fa-pinterest-p"></i></a></li>{{ end }}
-                                {{ if $contactSocial.houzz }}<li><a href="{{ $contactSocial.houzz }}" target="_blank" title="Houzz"><i class="fab fa-houzz"></i></a></li>{{ end }}
-                              </ul>
-              </div>
-          
-              <div class="box">
-                <h2 class="subtitle is-6">Blog Categories</h2>
-                  <ul>
-                      {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-                    <li>
-                      <i class="fas fa-angle-right" style="margin-right: 10px"></i><a href="/categories{{ $name | urlize | relURL }}" class="secondary-btn">{{ $name | humanize }} ({{ $taxonomy.Count }})</a>
-                    </li>
-                    {{end}}
-          
-                  </ul>
-              </div>
-              <div class="box">
-                  <h2 class="subtitle is-6">Latest Posts<h2>
-          
-                  {{ range  first 4 ( where $.Site.RegularPages "Type" "blog") }}
-                  <article class="media">
-                      {{ if .Params.featured_image }}
-                      <div class="media-left">
-                        <figure class="image is-96x96">
-                          <img src="{{ .Params.featured_image }}" alt="Image">
-                        </figure>
-                      </div>
-                      {{end}}
-                      <div class="media-content">
-                        <div class="content">
-                            <h1 class="title is-6">{{ .Params.title }}</h1>
-                            <a href="{{ .Permalink }}" class="secondary-btn">Continue Reading</a>
-                      </div>
-                  </article>
-                  {{end}}
-              </div>
-          </div>
-
-        </div>
+                <div class="column">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.133686466229!2d-117.84024048447495!3d33.80886298067293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd74e1de4a94b%3A0x486b849a305c21a4!2s1500%20E%20Katella%20Ave%20Suite%20M.%20Room%202%2C%20Orange%2C%20CA%2092867!5e0!3m2!1sen!2sus!4v1592300305663!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
     </div>
+</div>
 </div>
 {{ end }}
