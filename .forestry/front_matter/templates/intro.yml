@@ -2,6 +2,11 @@
 label: Intro
 hide_body: true
 fields:
+- name: intro_subtitle
+  type: text
+  config:
+    required: false
+  label: Intro Subtitle
 - name: intro_title
   type: text
   config:
