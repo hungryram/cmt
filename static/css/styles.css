@@ -185,11 +185,26 @@ body h6.subtitle {
 }
 
 /* SUB PAGE */
+/* PAGE BANNER */
 
-div.interior-section {
-    background: #f1f1f1;
-    padding: 4em 30px;
+div.page-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15em 30px;
+    margin-top: -150px;
 }
+
+.page-banner h2.title {
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .page-banner h2.title {
+        font-size: 1.5rem;
+    }
+}
+
 
 div.interior-section h2.title {
     color: #414347;
@@ -435,6 +450,10 @@ li.active a {
 
 /* ALL SCREEN SIZE MENU */
 
+div.hero-head > header.navbar {
+    padding: 12px 0;
+    background: transparent!important;
+}
 
 header.navbar>.container {
     align-items: center;
@@ -581,25 +600,12 @@ body .hero-body h1.title {
 
 
 
-/* PAGE BANNER */
-
-div.page-banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.page-banner h2.title {
-    color: #fff;
-}
-
-@media screen and (max-width: 768px) {
-    .page-banner h2.title {
-        font-size: 1.5rem;
-    }
-}
 
 /* INTRO SECTION */
+
+.intro-image {
+    box-shadow: 20px 20px 0px black;
+}
 
 a.intro-btn {
     border-radius: 0;
@@ -707,17 +713,17 @@ a.descending {
 
 .home-card:hover img {
     transform: scale(1.1);
-    transition: all .3s ease-in-out;
+    transition: all .5s ease-in-out;
     width: auto;
     height: auto;
 }
 
 .card-image img {
-    transition: all .2s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .card.home-card {
-    transition: all .2s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .home-blog-content div h3 {
@@ -756,6 +762,16 @@ a.descending {
 #mc_embed_signup input#mce-EMAIL {
     border-radius: 0;
     border: 0;
+    height: 50px;
+}
+
+div input#mc-embedded-subscribe {
+    border-radius: 0;
+    height: 50px;
+    border: 0;
+    background: black;
+    color: #fff;
+    padding: 0 50px;
 }
 
 /* AGENT LIST PAGE */
