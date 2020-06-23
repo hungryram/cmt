@@ -12,8 +12,8 @@ main_image:
   hero_title: Complete Muscle Therapy
   align_hero_text: has-text-centered
   add_a_button:
-    hero_button_text: GET IN TOUCH
-    hero_button_link: "/contact"
+    hero_button_text: ''
+    hero_button_link: ''
     open_in_new_tab: false
     hero_button_text_color: "#000000"
     hero_button_bg_color: "#ffffff"
@@ -39,7 +39,7 @@ home_sections:
   intro_subtitle: Orange County Massage
 - template: cta
   call_to_action_one:
-    icon_one_cta: 
+    icon_one_cta: ''
     title_one_cta: Service One
     body_text_one_cta: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda,
       iure quisquam asperiores quod voluptatem libero aliquid repellendus et velit,
@@ -52,12 +52,12 @@ home_sections:
       iure quisquam asperiores quod voluptatem libero aliquid repellendus et velit,
       dignissimos soluta r
     title_two_cta: Service 2
-    icon_two_cta: 
+    icon_two_cta: ''
     image_two_cta: ''
     cta_two_add_a_link: ''
     cta_two_new_tab: true
   call_to_action_three:
-    icons_three_cta: 
+    icons_three_cta: ''
     title_three_cta: Service 3
     body_text_three_cta: Lorem ipsum dolor, sit amet consectetur adipisicing elit.
       Assumenda, iure quisquam asperiores quod voluptatem libero aliquid repellendus
