@@ -50,12 +50,12 @@ home_sections:
   call_to_action_two:
     body_text_two_cta: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda,
       iure quisquam asperiores quod voluptatem libero aliquid repellendus et velit,
-      dignissimos soluta repellat dolorem sed vel ab magni vitae incidunt? Iusto!
+      dignissimos soluta r
     title_two_cta: Service 2
     icon_two_cta: 
     image_two_cta: ''
     cta_two_add_a_link: ''
-    cta_two_new_tab: false
+    cta_two_new_tab: true
   call_to_action_three:
     icons_three_cta: 
     title_three_cta: Service 3
@@ -65,7 +65,7 @@ home_sections:
       Iusto!
     image_three_cta: ''
     cta_three_add_a_link: ''
-    cta_three_new_tab: false
+    cta_three_new_tab: true
 - template: intro
   intro_title: Full Service Kitchen & Bath Design & Remodeling
   intro_body: For complete expert top-to-bottom residential design in the Fayetteville,

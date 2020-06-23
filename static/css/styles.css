@@ -478,10 +478,16 @@ a.navbar-item img {
 }
 
 
-div.socialheader,
-div.navbar-brand,
+div.socialheader {
+    flex: 20%;
+}
+
+div.navbar-brand {
+    flex: 20%;
+}
+
 div#navbarMenuHeroC {
-    flex: 33.3%;
+    flex: 60%;
 }
 
 div.socialheader {
@@ -924,6 +930,50 @@ ul.agent-list-contact a {
 }
 
 /* CTA SECTION */
+
+.cta-section.section {
+    padding: .7rem 0.5rem;
+}
+
+.col-cta:nth-child(even){
+    background: black;
+    color: #fff;
+}
+
+
+.inner-cta:nth-child(even) {
+    border: 1px solid black;
+}
+
+
+
+.col-cta:nth-child(odd){
+    background: #eee;
+}
+
+
+
+.cta-section .column {
+    padding: 10px 10px;
+}
+
+.inner-cta {
+    padding: 10rem 10px;
+    height: 100%;
+    transition: all .1s ease-out;
+}
+
+.inner-cta:hover {
+    border: 3px solid #c59d5f;
+    transition: all .1s ease-in-out;
+}
+
+.inner-cta a {
+    text-transform: uppercase;
+    border-bottom: 1px solid #c59d5f;
+    font-size: 16px;
+    font-weight: 800;
+}
 
 .cta-a-wrap {
     display: block;
