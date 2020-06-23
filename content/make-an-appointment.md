@@ -1,5 +1,8 @@
 +++
 title = "Make an Appointment"
+[menu.main]
+name = "Book Appointment"
+weight = 4
 [search_engine_optimization]
 meta_description = ""
 meta_title = ""
