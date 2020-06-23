@@ -489,6 +489,18 @@ div.socialheader {
     flex: 20%;
 }
 
+.socialheader a {
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid #c59d5f;
+}
+
+.socialheader a:hover {
+    background: #c59d5f;
+    color: #fff;
+
+}
+
 div.navbar-brand {
     flex: 20%;
 }
