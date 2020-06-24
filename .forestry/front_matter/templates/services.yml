@@ -17,3 +17,5 @@ fields:
   config: {}
   template: url
   label: URL
+pages:
+- content/services/relaxation-massage.md
