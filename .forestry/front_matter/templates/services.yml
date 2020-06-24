@@ -18,4 +18,5 @@ fields:
   template: url
   label: URL
 pages:
+- content/services/deep-tissue-massage.md
 - content/services/relaxation-massage.md
