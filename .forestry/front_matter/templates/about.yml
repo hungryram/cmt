@@ -98,11 +98,6 @@ fields:
       label: Body Text
     label: Column Four
   label: Columns
-- name: search_engine_optimization
-  type: include
-  config: {}
-  template: seo
-  label: Search Engine Optimization
 - name: about_footer
   type: field_group
   config: {}
@@ -137,5 +132,10 @@ fields:
       required: false
     label: Button Link
   label: About Footer
+- name: search_engine_optimization
+  type: include
+  config: {}
+  template: seo
+  label: Search Engine Optimization
 pages:
 - content/about/_index.md
