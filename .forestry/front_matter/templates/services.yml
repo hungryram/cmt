@@ -12,3 +12,8 @@ fields:
   config: {}
   template: seo
   label: Search Engine Optimization
+- name: url
+  type: include
+  config: {}
+  template: url
+  label: URL
