@@ -1,4 +1,5 @@
 +++
+featured_image = "/uploads/man-massage-e1446758637665-300x200.jpg"
 meta_description = ""
 meta_title = ""
 title = "SPORTS MASSAGE"
