@@ -33,6 +33,7 @@ fields:
   template: url
   label: URL
 pages:
+- content/services/custom-massage.md
 - content/services/deep-tissue-massage.md
 - content/services/neuromuscular-therapy.md
 - content/services/relaxation-massage.md
