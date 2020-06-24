@@ -22,5 +22,86 @@ fields:
   config: {}
   template: seo
   label: Search Engine Optimization
+- name: columns
+  type: field_group
+  config: {}
+  fields:
+  - name: column_one
+    type: field_group
+    config: {}
+    fields:
+    - name: column_one_title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: body_text_one
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Body Text
+    label: Column One
+  - name: column_two
+    type: field_group
+    config: {}
+    fields:
+    - name: column_two_title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: body_text_two
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Body Text
+    label: Column Two
+  - name: column_three
+    type: field_group
+    config: {}
+    fields:
+    - name: column_three_title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: body_text_three
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Body Text
+    label: Column Three
+  - name: column_four
+    type: field_group
+    config: {}
+    fields:
+    - name: column_four_title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: body_text_four
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Body Text
+    label: Column Four
+  label: Columns
 pages:
 - content/about/_index.md
