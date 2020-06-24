@@ -1,5 +1,4 @@
 +++
-draft = true
 featured_image = "/uploads/shutterstock_132808574-e1446758606429-300x200.jpg"
 meta_description = "Deep Tissue Massage aims to relieve tension by using techniques that work into the deeper layers the bodies tissue. It is a great method to use for releasing chronic pain areas, muscle tension, or if you prefer a firmer massage."
 meta_title = "Deep Tissue Massage | Orange County, CA | Complete Muscle Therapy"
