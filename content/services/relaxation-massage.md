@@ -1,5 +1,4 @@
 +++
-draft = true
 featured_image = "/uploads/toa-heftiba-a9pfsc8dtlo-unsplash.jpg"
 meta_description = "Myofascial Release is a type of deep tissue massage technique which is used to treat injuries or discomfort while decreasing pain and improving range of motion. Myofascial massage is different from other types of massages because it focuses on the fascia rather than the muscle."
 meta_title = "Myofacial Massage | Orange County, CA | Complete Muscle Therapy"
