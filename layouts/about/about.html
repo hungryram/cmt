@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="section">
+<div class="section" style="padding-top:150px;padding-bottom:150px">
     <div class="container">
         <div class="columns has-text-centered">
             <div class="column is-half is-offset-one-quarter">
@@ -20,26 +20,26 @@
             <div class="columns has-text-white has-text-centered">
                 <div class="column">
                     <div class="inner-specialize">
-                        <h4 class="subtitle is-4 has-text-white">Neuromuscular</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, officiis! Quas, laborum numquam. Ipsa, amet maiores vero reiciendis</p>
+                        <h4 class="subtitle is-4 has-text-white">{{ .Params.columns.column_one.column_one_title }}</h4>
+                        <p class="content">{{ .Params.columns.column_one.body_text_one }}</p>
                     </div>
                 </div>
                 <div class="column">
                     <div class="inner-specialize">
-                        <h4 class="subtitle is-4 has-text-white">Neuromuscular</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, officiis! Quas, laborum numquam. Ipsa, amet maiores vero reiciendis</p>
+                        <h4 class="subtitle is-4 has-text-white">{{ .Params.columns.column_two.column_two_title }}</h4>
+                        <p>{{ .Params.columns.column_two.body_text_two }}</p>
                     </div>
                 </div>
                 <div class="column">
                     <div class="inner-specialize">
-                        <h4 class="subtitle is-4 has-text-white">Neuromuscular</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, officiis! Quas, laborum numquam. Ipsa, amet maiores vero reiciendis</p>
+                        <h4 class="subtitle is-4 has-text-white">{{ .Params.columns.column_three.column_three_title }}</h4>
+                        <p>{{ .Params.columns.column_three.body_text_three }}</p>
                     </div>
                 </div>
                 <div class="column">
                     <div class="inner-specialize">
-                        <h4 class="subtitle is-4 has-text-white">Neuromuscular</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, officiis! Quas, laborum numquam. Ipsa, amet maiores vero reiciendis</p>
+                        <h4 class="subtitle is-4 has-text-white">{{ .Params.columns.column_four.column_four_title }}</h4>
+                        <p>{{ .Params.columns.column_four.body_text_four }}</p>
                     </div>
                 </div>
             </div>
@@ -52,10 +52,10 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-half">
-                    <h4 class="subtitle is-4">Let's Connect</h4>
-                    <h1 class="title is-2">Schedule an Appointment</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem voluptas magni eos recusandae consequuntur, pariatur eum, voluptates voluptatibus rerum minus dignissimos vel neque totam reiciendis impedit accusamus tempore voluptatum excepturi?</p><br>
-                    <a href="/appointment" class="secondary-btn">Schedule</a>
+                    <h4 class="subtitle is-4">{{ .Params.about_footer.about_footer_subtitle }}</h4>
+                    <h1 class="title is-2">{{ .Params.about_footer.about_footer_title }}</h1>
+                    <p>{{ .Params.about_footer.about_footer_body }}</p><br>
+                    <a href="{{ .Params.about_footer.about_button_link }}" class="secondary-btn">{{ .Params.about_footer.about_button_label }}</a>
                 </div>
             </div>
         </div>

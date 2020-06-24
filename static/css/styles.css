@@ -200,6 +200,9 @@ div.page-banner {
 
 .page-banner h2.title {
     color: #fff;
+    border-bottom: 3px solid #c59d5f;
+    padding-bottom: 11px;
+    padding-top: 50px;
 }
 
 @media screen and (max-width: 768px) {
@@ -479,14 +482,34 @@ a.navbar-item img {
 
 @media screen and (max-width: 1088px) {
     div.socialheader {
-        background: #ccc;
-        padding: 10px;
+       display: none;
+    }
+}
+
+@media screen and (min-width: 1088px) {
+    div.top-bar {
+       display: none;
     }
 }
 
 
 div.socialheader {
     flex: 20%;
+}
+
+.top-bar {
+    background: #131313;
+    padding: 10px;
+    text-align: right;
+}
+
+.top-bar i {
+    margin-right: 8px;
+    color: #c59d5f;
+}
+
+.top-bar a {
+    color: #fff;
 }
 
 .socialheader a {
@@ -579,7 +602,7 @@ body .hero-body h1.title {
     }
 
     .hero-body h2.subtitle {
-        font-size: 18px;
+        font-size: 34px;
     }
 }
 
@@ -798,7 +821,7 @@ a.descending {
 /* SUBSCRIPTION */
 
 .subscription__container {
-    background:#393939;
+    background:#0b0b0b;
 }
 
 #mc_embed_signup input#mce-EMAIL {
@@ -981,12 +1004,14 @@ ul.agent-list-contact a {
 .inner-cta {
     padding: 10rem 10px;
     height: 100%;
-    transition: all .1s ease-out;
+    transition: all .2s ease-out;
+    border: 3px solid #c59d5f;
+
 }
 
 .inner-cta:hover {
-    border: 3px solid #c59d5f;
-    transition: all .1s ease-in-out;
+    border: 3px solid #686561;
+    transition: all .2s ease-in-out;
 }
 
 .inner-cta a {

@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<div class="section">
+    <div class="container">
+        {{ range .Pages }}
+        <div class="columns box is-vcentered notification" style="margin: 20px 0px;border:2px solid #c59d5f">
+            <div class="column is-4">
+                <figure class="image">
+                    <img src="{{ .Params.featured_image }}" alt="" style="object-fit: cover;height:250px;width:100%;margin: 0 auto;">
+                  </figure>
+            </div>
+            <div class="column service-summary">
+                <h2 class="title is-4">{{ .Title }}</h2>
+                {{ .Summary }}
+                <br>
+                <a href="{{ .Permalink }}" class="secondary-btn">Read More</a>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+{{ end }}

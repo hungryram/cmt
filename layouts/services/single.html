@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<div class="section" style="padding-top: 100px;padding-bottom:100px">
+    <div class="container">
+        <div class="columns">
+            <div class="column has-text-centered">
+                <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" style="box-shadow:18px 15px 20px #cacaca">
+            </div>
+            <div class="column">
+                <div class="single-service content">
+                    <h1 class="title is-5">{{ .Title }}</h1>
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}
