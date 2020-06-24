@@ -2,6 +2,16 @@
 label: Services
 hide_body: false
 fields:
+- name: weight
+  type: number
+  label: Order
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: title
   type: text
   config:
@@ -26,3 +36,4 @@ pages:
 - content/services/deep-tissue-massage.md
 - content/services/relaxation-massage.md
 - content/services/sports-massage.md
+- content/services/swedish.md
