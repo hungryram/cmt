@@ -1,8 +1,10 @@
 +++
-featured_image = "/uploads/neck_massage-e1445372646549.jpg"
-meta_description = ""
-meta_title = ""
-title = "RELAXATION MASSAGE"
+draft = true
+featured_image = "/uploads/toa-heftiba-a9pfsc8dtlo-unsplash.jpg"
+meta_description = "Myofascial Release is a type of deep tissue massage technique which is used to treat injuries or discomfort while decreasing pain and improving range of motion. Myofascial massage is different from other types of massages because it focuses on the fascia rather than the muscle."
+meta_title = "Myofacial Release Therapy | Orange County, CA | Complete Muscle Therapy"
+title = "MYOFASCIAL RELEASE THERAPY"
+weight = 3
 
 +++
-De-stress and unwind during this full-body massage with light to medium pressure. This massage will soothe your body and mind, transporting you to a tranquil state of relaxation.
+Myofascial Release is a type of deep tissue massage technique which is used to treat injuries or discomfort while decreasing pain and improving range of motion. Myofascial massage is different from other types of massages because it focuses on the fascia rather than the muscle. Fascia surrounds our entire body inside and out such as scar tissue and the membrane that capsulizes the muscle. Any imbalances in the fascia can affect your bodies comfort level and range of motion. This type of bodywork truly specializes on releasing tension throughout your body.
