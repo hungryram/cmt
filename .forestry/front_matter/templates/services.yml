@@ -34,6 +34,7 @@ fields:
   label: URL
 pages:
 - content/services/deep-tissue-massage.md
+- content/services/neuromuscular-therapy.md
 - content/services/relaxation-massage.md
 - content/services/sports-massage.md
 - content/services/swedish.md
