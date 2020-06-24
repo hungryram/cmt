@@ -17,11 +17,6 @@ fields:
   config:
     required: false
   label: About Title
-- name: search_engine_optimization
-  type: include
-  config: {}
-  template: seo
-  label: Search Engine Optimization
 - name: columns
   type: field_group
   config: {}
@@ -103,5 +98,44 @@ fields:
       label: Body Text
     label: Column Four
   label: Columns
+- name: search_engine_optimization
+  type: include
+  config: {}
+  template: seo
+  label: Search Engine Optimization
+- name: about_footer
+  type: field_group
+  config: {}
+  fields:
+  - name: about_footer_subtitle
+    type: text
+    config:
+      required: false
+    label: About Footer Subtitle
+  - name: about_footer_title
+    type: text
+    config:
+      required: false
+    label: About Footer Title
+  - name: about_footer_body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Body Text
+  - name: about_button_label
+    type: text
+    config:
+      required: false
+    label: Button Label
+  - name: about_button_link
+    type: text
+    config:
+      required: false
+    label: Button Link
+  label: About Footer
 pages:
 - content/about/_index.md
