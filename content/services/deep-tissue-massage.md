@@ -1,4 +1,5 @@
 +++
+featured_image = "/uploads/shutterstock_132808574-e1446758606429-300x200.jpg"
 meta_description = ""
 meta_title = ""
 title = "DEEP TISSUE MASSAGE"
