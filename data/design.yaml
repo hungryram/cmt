@@ -60,11 +60,11 @@ home_sections:
     cta_two_new_tab: true
   call_to_action_three:
     icons_three_cta: ''
-    title_three_cta: Service 3
-    body_text_three_cta: Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-      Assumenda, iure quisquam asperiores quod voluptatem libero aliquid repellendus
-      et velit, dignissimos soluta repellat dolorem sed vel ab magni vitae incidunt?
-      Iusto!
+    title_three_cta: Aromatherapy Add-On
+    body_text_three_cta: |-
+      Enhance your massage with pure essential oils which can relieve stress, pain, and inflammation.
+      Enjoy the your choice of:
+      Lavender, Peppermint, or Wild Orange
     image_three_cta: ''
     cta_three_add_a_link: ''
     cta_three_new_tab: true
