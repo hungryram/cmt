@@ -21,11 +21,9 @@ main_image:
   add_youtube_background_video: true
 home_sections:
 - template: intro
-  intro_body: |-
-    At CK Designs, we take as much pride in your home as you do! When you trust us with your next project, we guarantee unmatched dedication to a job well done and your complete satisfaction.
-
-    Give us a call today to learn more or to schedule your free in-home consultation!
-  intro_title: Free In-Home Consultation
+  intro_body: Choose from a variety of styles or customize your own session to your
+    liking. I provide a wide range from Swedish to neuromuscular therapy.
+  intro_title: customize your massage to fit your needs
   intro_align_text: has-text-centered
   intro_add_button:
     button_label: ''
