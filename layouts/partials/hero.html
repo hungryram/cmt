@@ -9,7 +9,7 @@
     <!-- Hero content: will be in the middle -->
     <div class="hero-body">
       {{ with .Site.Data.design.main_image.align_hero_text }}
-        <div class="container {{ . }}">
+        <div class="container {{ . }} animate__animated animate__fadeInUp">
           {{end}}
           <h2 class="subtitle">{{ .Site.Data.design.main_image.hero_subtitle }}</h2>
 
