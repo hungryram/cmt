@@ -67,10 +67,8 @@ home_sections:
     cta_three_new_tab: true
 - template: intro
   intro_title: Recover the right way!
-  intro_body: For complete expert top-to-bottom residential design in the Fayetteville,
-    GA, and surrounding area, call on CK Designs Kitchen & Bath. We’re your locally
-    owned and operated go-to for cabinetry, countertops, hardware, appliances, plumbing
-    fixtures, lighting, tile backsplash, tile floor, tile showers, flooring, and more!
+  intro_body: 'Neuromuscular Therapy has proven to be the most affective massge used
+    to treat '
   add_photo: "/uploads/pain.jpg"
   intro_align_text: has-text-left
   intro_background_color: "#101010"
