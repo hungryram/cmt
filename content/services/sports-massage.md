@@ -1,5 +1,4 @@
 +++
-draft = true
 featured_image = "/uploads/man-massage-e1446758637665-300x200.jpg"
 meta_description = "Sports Massage aims to enhance your athletic performance and reduce risk of injury by stretching tight muscles, stimulating inactive muscles, and improving soft tissue imbalances. It can reduce muscle pain and soreness while increasing flexibility and recovery speed from injuries. Some techniques used in this massage involve stretching, compression and rocking."
 meta_title = "Sports Massage | Orange County, CA | Complete Muscle Therapy"
