@@ -4,6 +4,6 @@ featured_image = ""
 meta_description = ""
 meta_title = ""
 title = "Custom Massage"
-weight = 0
+weight = 6
 
 +++
