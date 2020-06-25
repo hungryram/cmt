@@ -4,6 +4,6 @@ featured_image = ""
 meta_description = ""
 meta_title = ""
 title = "Neuromuscular Therapy"
-weight = 0
+weight = 5
 
 +++
