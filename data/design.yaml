@@ -48,10 +48,12 @@ home_sections:
     cta_one_add_a_link: ''
     cta_two_new_tab: false
   call_to_action_two:
-    body_text_two_cta: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda,
-      iure quisquam asperiores quod voluptatem libero aliquid repellendus et velit,
-      dignissimos soluta r
-    title_two_cta: Service 2
+    body_text_two_cta: Hot Stone Therapy is a style of massage where heated stones
+      are placed at specific sites on your body to deepen relaxation and promote circulation
+      in your muscles. Muscles that are heated with these stones release tension and
+      stress much more deeply and quickly than with a traditional massage. The overall
+      experience is very relaxing, nurturing, and rejuvenating.
+    title_two_cta: Full Hot Stone Add-On
     icon_two_cta: ''
     image_two_cta: ''
     cta_two_add_a_link: ''
