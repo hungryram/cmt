@@ -2,7 +2,7 @@
 author = "teams/corinne-r.md"
 categories = ["massage", "neuromusculartherapy", "neuromuscularmassage", "rehabilitation", "pain free", "prehabilitation", "exercises", "chronicpain"]
 date = 2020-06-25T07:00:00Z
-featured_image = ""
+featured_image = "/uploads/rounded-shoulders.jpg"
 tags = ["shoulderpain", "holistic", "rotatorcuff", "externalrotation", "chronicpainrelief"]
 title = "Rounded Shoulders?"
 [search_engine_optimization]
