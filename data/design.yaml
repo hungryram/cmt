@@ -35,7 +35,7 @@ home_sections:
   add_photo: ''
   intro_background_color: ''
   intro_enable_white_text_color: false
-  intro_subtitle: Orange County Massage
+  intro_subtitle: RESTORE • REJUVENATE • RECOVER
 - template: cta
   call_to_action_one:
     icon_one_cta: ''
