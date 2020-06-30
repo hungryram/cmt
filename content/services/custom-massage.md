@@ -7,3 +7,4 @@ title = "Custom Massage"
 weight = 6
 
 +++
+Tailor you massage to your needs. Combine styles & techniques to your liking. Many people enjoy both Swedish and Neuromuscular work as they get the best of both worlds!
