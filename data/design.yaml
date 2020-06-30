@@ -82,7 +82,7 @@ home_sections:
     intro_button_background_color: "#464646"
     intro_button_text_color: "#C59D5F"
   intro_enable_white_text_color: true
-  intro_subtitle: Orange County
+  intro_subtitle: Restore &middot; Rejuvenate &middot; Recover
 - template: featured-blog
   blog_align_title_text: has-text-centered
   blog_title: Our Latest Posts
