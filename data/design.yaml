@@ -21,9 +21,9 @@ main_image:
   add_youtube_background_video: true
 home_sections:
 - template: intro
-  intro_body: Choose from a variety of styles or customize your own session to your
-    liking. I provide a wide range of massage styles from Swedish to Neuromuscular
-    Therapy.
+  intro_body: A massage tailored to you. Choose from a variety of styles or customize
+    your own session to your liking. Providing a wide range of massage techniques
+    from Swedish to Neuromuscular Therapy.
   intro_title: customize your massage to fit your needs
   intro_align_text: has-text-centered
   intro_add_button:
