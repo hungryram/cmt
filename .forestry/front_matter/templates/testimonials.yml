@@ -76,5 +76,6 @@ fields:
   template: url
   label: URL
 pages:
+- content/testimonials/andrew-b.md
 - content/testimonials/anonymous.md
 - content/testimonials/dawn-m.md
