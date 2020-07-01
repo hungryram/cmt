@@ -1,14 +1,19 @@
 baseURL = "https://renteria.netlify.app"
 languageCode = "en-us"
 [[menu.main]]
-name = "About Me"
-url = "/about"
-weight = 2
+name = "Partners"
+parent = "Resources"
+url = "/partners"
+weight = 1
 [[menu.main]]
 name = "Testimonials"
 parent = "Resources"
 url = "/testimonials"
-weight = 1
+weight = 2
+[[menu.main]]
+name = "About Me"
+url = "/about"
+weight = 2
 [[menu.main]]
 name = "Services"
 url = "/services"
