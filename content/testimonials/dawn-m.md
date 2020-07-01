@@ -1,6 +1,5 @@
 +++
 date_published = "08/31/2019"
-draft = true
 external_link = ""
 link_label = ""
 occupation = ""
