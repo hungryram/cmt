@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="section" style="padding-top:150px;padding-bottom:150px">
+{{/*  <div class="section" style="padding-top:150px;padding-bottom:150px">
     <div class="container">
         <div class="columns has-text-centered">
             <div class="column is-half is-offset-one-quarter">
@@ -12,8 +12,8 @@
             </div>
         </div>
     </div>
-</div>
-
+</div>  */}}
+<!--
 <div class="specialize">
     <div class="section">
         <div class="container">
@@ -46,16 +46,25 @@
         </div>
     </div>
 </div>
-
+-->
 <div class="about-bg">
     <div class="section">
         <div class="container">
             <div class="columns">
                 <div class="column is-half">
-                    <h4 class="subtitle is-4">{{ .Params.about_footer.about_footer_subtitle }}</h4>
-                    <h1 class="title is-2">{{ .Params.about_footer.about_footer_title }}</h1>
-                    <p>{{ .Params.about_footer.about_footer_body }}</p><br>
-                    <a href="{{ .Params.about_footer.about_button_link }}" class="secondary-btn">{{ .Params.about_footer.about_button_label }}</a>
+                    <h4 class="subtitle is-5">{{ .Params.about_subtitle }}</h4>
+                    <h1 class="title is-3">{{ .Params.about_title }}</h1>
+                    <div class="content">
+                        {{ .Content }}
+                    </div>
+                    <div class="columns has-text-centered is-mobile">
+                        <div class="column">
+                            <a href="{{ .Params.about_footer.about_button_link }}" class="about-btn">{{ .Params.about_footer.about_button_label }}</a>
+                        </div>
+                        <div class="column">
+                            <a href="/contact" class="about-btn">Contact Me</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

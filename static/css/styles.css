@@ -178,6 +178,15 @@ body h6.title {
     text-transform: uppercase;
 }
 
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    font-family: "Montserrat",sans-serif;
+}
+
 body h1.subtitle,
 body h2.subtitle,
 body h3.subtitle,
@@ -186,6 +195,8 @@ body h5.subtitle,
 body h6.subtitle {
     font-family: "Montserrat",sans-serif;
 }
+
+
 
 /* SUB PAGE */
 /* PAGE BANNER */
@@ -242,7 +253,8 @@ i.fab.fa-instagram {
 
 p,
 li,
-a {
+a,
+div.content p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
@@ -516,6 +528,7 @@ div.socialheader {
     color: #fff;
     padding: 10px 30px;
     border: 1px solid #c59d5f;
+    border-radius: 5px;
 }
 
 .socialheader a:hover {
@@ -653,6 +666,14 @@ body .hero-body h1.title {
 }
 
 /* ABOUT PAGE */
+
+a.about-btn {
+    border: 1px solid #c59d5f;
+    padding: 10px 20px;
+    color: #000;
+    width: inherit;
+    display: block;
+}
 
 .specialize {
     background: #282828;
