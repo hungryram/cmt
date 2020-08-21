@@ -15,7 +15,6 @@ sections:
 - type: document
   path: data/pageconfig.yaml
   label: Page Config
-  match: "**/*"
 - type: heading
   label: Default Pages
 - type: directory
