@@ -5,8 +5,6 @@
         <div class="inner-cta">
           <h1 class="subtitle is-5">{{ .call_to_action_one.title_one_cta }}</h1>
           <p>{{ .call_to_action_one.body_text_one_cta }}</p>
-          <br>
-          <a href="{{ .call_to_action_one.cta_one_add_a_link }}" class="secondary-btn"{{ if .call_to_action_one.cta_one_new_tab }}target="_blank"{{ end }}>Learn More</a>
         </div>
     </div>
     {{ end }}
@@ -16,8 +14,7 @@
       <div class="inner-cta">
         <h1 class="subtitle is-5" style="color: #fff">{{ .call_to_action_two.title_two_cta }}</h1>
         <p>{{ .call_to_action_two.body_text_two_cta }}</p>
-        <br>
-        <a href="#" class="secondary-btn" {{ if .call_to_action_two.cta_two_new_tab }}target="_blank"{{ end }}>Learn More</a>
+        
       </div>
     </div>
     {{ end }}
@@ -27,8 +24,7 @@
       <div class="inner-cta">
         <h1 class="subtitle is-5">{{ .call_to_action_one.title_one_cta }}</h1>
         <p>{{ .call_to_action_one.body_text_one_cta }}</p>
-        <br>
-        <a href="#" class="secondary-btn" {{ if .call_to_action_three.cta_three_new_tab }}target="_blank"{{ end }}>Learn More</a>
+        
       </div>
     </div>
     {{ end }}

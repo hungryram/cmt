@@ -52,12 +52,12 @@
 {{ else if eq .RelPermalink "/about/" }}
     <title>{{ $pageConfigSeo.about_page.search_engine_optimization.title_tag }}</title>
     <meta name="description" content="{{ $pageConfigSeo.about_page.search_engine_optimization.meta_description }}">
-{{ else if eq .RelPermalink "/products/" }}
-    <title>{{ $pageConfigSeo.products_page.search_engine_optimization.title_tag }}</title>
+{{ else if eq .RelPermalink "/testimonials/" }}
+    <title>{{ $pageConfigSeo.testimonial_page.search_engine_optimization.title_tag }}</title>
     <meta name="description" content="{{ $pageConfigSeo.products_page.search_engine_optimization.meta_description }}">
 {{ else if eq .RelPermalink "/services/" }}
-    <title>{{ $pageConfigSeo.faq_page.search_engine_optimization.title_tag }}</title>
-    <meta name="description" content="{{ $pageConfigSeo.faq_page.search_engine_optimization.meta_description }}">
+    <title>{{ $pageConfigSeo.service_page.search_engine_optimization.title_tag }}</title>
+    <meta name="description" content="{{ $pageConfigSeo.service_page.search_engine_optimization.meta_description }}">
 {{ else if eq .RelPermalink "/blog/" }}
     <title>{{ $pageConfigSeo.blog_page.search_engine_optimization.title_tag }}</title>
     <meta name="description" content="{{ $pageConfigSeo.blog_page.search_engine_optimization.meta_description }}">

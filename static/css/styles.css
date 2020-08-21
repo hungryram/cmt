@@ -1192,9 +1192,9 @@ ul.footer-social li {
     margin: 15px 0;
 }
 
-.contact-page-icons li i {
+ul.contact-page-social li a i {
     margin-right: 10px;
-    color: #000;
+    color: #fff;
 }
 
 .contact-page-social li {

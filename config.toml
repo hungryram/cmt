@@ -2,7 +2,6 @@ baseURL = "https://renteria.netlify.app"
 languageCode = "en-us"
 [[menu.main]]
 name = "Testimonials"
-parent = "Resources"
 url = "/testimonials"
 weight = 5
 [[menu.main]]

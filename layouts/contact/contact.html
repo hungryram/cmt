@@ -8,8 +8,8 @@
              <div class="columns has-text-centered has-text-white">
                  <div class="column">
                      <h2 class="subtitle is-4 has-text-white">Call Me</h2>
-                     {{ if gt ( len $contactPage.mobile_phone ) 0 }}{{ if $contactPage }}<p> {{ $contactPage.mobile_phone }}</p> {{ end }}{{ end }}
-                     {{ if gt ( len $contactPage.phone ) 0 }}{{ if $contactPage }}<p>{{ $contactPage.phone }}</p> {{ end }}{{ end }}
+                     {{ if gt ( len $contactPage.mobile_phone ) 0 }}{{ if $contactPage }}<p><a href="tel:{{ $contactPage.mobile_phone }}" class="has-text-white">{{ $contactPage.mobile_phone }}</a></p> {{ end }}{{ end }}
+                     {{ if gt ( len $contactPage.phone ) 0 }}{{ if $contactPage }}<p><a href="tel:{{ $contactPage.phone }}" class="has-text-white">{{ $contactPage.phone }}</a></p> {{ end }}{{ end }}
                  </div>
                  <div class="column">
                     <h2 class="subtitle is-4 has-text-white">Location</h2>
@@ -17,7 +17,7 @@
                 </div>
                  <div class="column">
                      <h2 class="subtitle is-4 has-text-white">Email</h2>
-                     {{ if gt ( len $contactPage.email ) 0 }}{{ if $contactPage }}<p>{{ $contactPage.email }}</p> {{ end }}{{ end }}
+                     {{ if gt ( len $contactPage.email ) 0 }}{{ if $contactPage }}<p><a href="mailto:{{ $contactPage.email }}" class="has-text-white">{{ $contactPage.email }}</a></p> {{ end }}{{ end }}
                  </div>
                  <div class="column">
                      <h2 class="subtitle is-4 has-text-white">Connect</h2>
