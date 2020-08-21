@@ -1,9 +1,10 @@
 +++
 draft = true
-featured_image = ""
+featured_image = "/uploads/toa-heftiba-a9pfsc8dtlo-unsplash.jpg"
 meta_description = ""
 meta_title = ""
 title = "Custom Massage"
+title_tag = ""
 weight = 6
 
 +++
