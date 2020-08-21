@@ -12,6 +12,10 @@ sections:
 - type: document
   path: data/design.yaml
   label: Design
+- type: document
+  path: data/pageconfig.yaml
+  label: Page Config
+  match: "**/*"
 - type: heading
   label: Default Pages
 - type: directory
