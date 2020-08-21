@@ -17,6 +17,10 @@ sections:
   label: Page Config
 - type: heading
   label: Default Pages
+- type: document
+  path: content/testimonials/_index.md
+  label: Reviews
+  match: "**/*"
 - type: directory
   path: content/services
   label: Services
@@ -51,13 +55,6 @@ sections:
   match: "**/*"
   templates:
   - partners
-- type: directory
-  path: content/testimonials
-  label: Testimonials
-  create: documents
-  match: "**/*"
-  templates:
-  - reviews
 - type: heading
   label: Website Pages
 - type: directory
