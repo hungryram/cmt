@@ -8,6 +8,7 @@ title = "Rounded Shoulders?"
 [search_engine_optimization]
 meta_description = "Here is an exercise to help open those shoulders! Make sure you are using either a Light-Med band or if you’re at your gym, use the cables with little to no weight as I did here... remember this is a small muscle, but when trained correctly, it makes a huge difference."
 meta_title = "Fix and prevent rounded shoulders | Orange County, CA | Complete Muscle Therapy"
+title_tag = "Rounded Shoulders - Complete Muscle Therapy"
 
 +++
 <iframe width="560" height="315" src="https://www.youtube.com/embed/608JnRImGKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
