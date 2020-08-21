@@ -20,7 +20,3 @@ weight = 3
 name = "Home"
 url = "/"
 weight = 1
-[taxonomies]
-category = "categories"
-project = "projects"
-tag = "tags"
