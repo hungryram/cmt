@@ -22,16 +22,6 @@ fields:
     template: seo
     label: SEO
   label: About Page
-- name: products_page
-  type: field_group
-  config: {}
-  fields:
-  - name: seo
-    type: include
-    config: {}
-    template: seo
-    label: SEO
-  label: Products Page
 - name: service_page
   type: field_group
   config: {}
@@ -62,3 +52,5 @@ fields:
     template: seo
     label: SEO
   label: Testimonial Page
+pages:
+- data/pageconfig.yaml
