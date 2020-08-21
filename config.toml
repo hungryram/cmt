@@ -4,7 +4,7 @@ languageCode = "en-us"
 name = "Testimonials"
 parent = "Resources"
 url = "/testimonials"
-weight = 6
+weight = 5
 [[menu.main]]
 name = "About Me"
 url = "/about"
