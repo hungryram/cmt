@@ -15,7 +15,7 @@ body_text_four = "t, consectetur adipisicing elit. Magnam, officiis! Quas, labor
 column_four_title = "testing rou"
 [columns.column_one]
 body_text_one = "ectetur adipisicing elit. Magnam, officiis! Quas, laborum numquam. Ipsa, amet maiores vero reiciendisLorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, officiis! Quas, laborum numquam. Ipsa, amet maiores vero reiciendis"
-column_one_title = "dftd"
+column_one_title = "test column"
 [columns.column_three]
 body_text_three = "t, consecteturt, consectetur adipisicing elit. Magnam, officiis! Quas, laborum numquam. Ipsa, amet maiores vero reit, consectetur adipisicing elit. Magnam, officiis! Quas, laborum numquam. Ipsa, amet maiores vero reiciendis"
 column_three_title = "t, consectetur adipisicing elit. "
