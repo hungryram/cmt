@@ -33,3 +33,5 @@ fields:
     max: 
     labelField: 
   label: Reviews
+pages:
+- content/testimonials/_index.md
