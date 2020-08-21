@@ -47,20 +47,20 @@
     <title>{{ $seoProfile.title_tag }}</title>
     <meta name="description" content="{{ $seoProfile.meta_description }}">
 {{ else if eq .RelPermalink "/contact/" }}
-    <title>{{ $pageConfigSeo.contact_page.search_engine_optimization.title_tag }}</title>
-    <meta name="description" content="{{ $pageConfigSeo.contact_page.search_engine_optimization.meta_description }}">
+    <title>{{ $pageConfigSeo.contact_page.title_tag }}</title>
+    <meta name="description" content="{{ $pageConfigSeo.contact_page.meta_description }}">
 {{ else if eq .RelPermalink "/about/" }}
-    <title>{{ $pageConfigSeo.about_page.search_engine_optimization.title_tag }}</title>
-    <meta name="description" content="{{ $pageConfigSeo.about_page.search_engine_optimization.meta_description }}">
+    <title>{{ $pageConfigSeo.about_page.title_tag }}</title>
+    <meta name="description" content="{{ $pageConfigSeo.about_page.meta_description }}">
 {{ else if eq .RelPermalink "/testimonials/" }}
-    <title>{{ $pageConfigSeo.testimonial_page.search_engine_optimization.title_tag }}</title>
-    <meta name="description" content="{{ $pageConfigSeo.products_page.search_engine_optimization.meta_description }}">
+    <title>{{ $pageConfigSeo.testimonial_page.title_tag }}</title>
+    <meta name="description" content="{{ $pageConfigSeo.products_page.meta_description }}">
 {{ else if eq .RelPermalink "/services/" }}
-    <title>{{ $pageConfigSeo.service_page.search_engine_optimization.title_tag }}</title>
-    <meta name="description" content="{{ $pageConfigSeo.service_page.search_engine_optimization.meta_description }}">
+    <title>{{ $pageConfigSeo.service_page.title_tag }}</title>
+    <meta name="description" content="{{ $pageConfigSeo.service_page.meta_description }}">
 {{ else if eq .RelPermalink "/blog/" }}
-    <title>{{ $pageConfigSeo.blog_page.search_engine_optimization.title_tag }}</title>
-    <meta name="description" content="{{ $pageConfigSeo.blog_page.search_engine_optimization.meta_description }}">
+    <title>{{ $pageConfigSeo.blog_page.search_engine_optimization.title_tag }}{{ $pageConfigSeo.blog_page.title_tag }}</title>
+    <meta name="description" content="{{ $pageConfigSeo.blog_page.search_engine_optimization.meta_description }}{{ $pageConfigSeo.blog_page.meta_description }}">
 {{ else }}
     <title>{{ $.Params.search_engine_optimization.title_tag }}{{ $.Params.search_engine_optimization.search_engine_optimization.title_tag }}</title>
     <meta name="description" content="{{ $.Params.search_engine_optimization.meta_description }}{{ $.Params.search_engine_optimization.search_engine_optimization.meta_description }}">

@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        {{ range .Params.reviews }}
+        <div class="columns mb-5">
+            <div class="column notification is-half is-offset-one-quarter px-6 pt-6 pb-6">
+                <p>{{ .review }}</p>
+                <h5 class="title is-6 mt-5">{{ .title }}</h5>
+                <time>{{.Date.Format "Jan 2, 2006" }}</time>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
