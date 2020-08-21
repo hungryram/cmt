@@ -57,7 +57,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
-  - testimonials
+  - reviews
 - type: heading
   label: Website Pages
 - type: directory
