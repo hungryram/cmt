@@ -1,5 +1,4 @@
 +++
-draft = true
 featured_image = "/uploads/toa-heftiba-a9pfsc8dtlo-unsplash.jpg"
 meta_description = ""
 meta_title = ""
