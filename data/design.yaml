@@ -70,8 +70,9 @@ home_sections:
     cta_three_new_tab: true
 - template: intro
   intro_title: Recover the right way!
-  intro_body: 'Neuromuscular Therapy has proven to be the most affective massge used
-    to treat '
+  intro_body: Neuromuscular Therapy has proven to be the most effective massage used
+    to treat clients with chronic pain and it helps improve sports performance while
+    preventing injuries caused by both posture or activity!
   add_photo: "/uploads/pain.jpg"
   intro_align_text: has-text-left
   intro_background_color: "#101010"
