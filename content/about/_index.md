@@ -1,7 +1,7 @@
 +++
 Title = "About"
-about_subtitle = "About Complete Muscle Therapy"
-about_title = "& Your Massage Therapist"
+about_subtitle = "About Your Massage Therapist"
+about_title = "& Complete Muscle Therapy"
 meta_description = ""
 meta_title = ""
 title_tag = ""
