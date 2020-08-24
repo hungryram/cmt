@@ -78,7 +78,7 @@ home_sections:
   intro_background_color: "#101010"
   intro_add_button:
     button_label: Learn more
-    intro_button_link: "/contact"
+    intro_button_link: "/services/neuromuscular-therapy/"
     intro_open_in_a_new_tab: false
     intro_button_background_color: "#464646"
     intro_button_text_color: "#C59D5F"
