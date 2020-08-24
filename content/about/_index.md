@@ -8,7 +8,7 @@ title_tag = ""
 [about_footer]
 about_button_label = "Book Now"
 about_button_link = "/bookings"
-about_footer_body = "t, consectetur adipisicing elit. Magnam, officiis! Quas, laborum numquam. Ipsa, amet maiores vero reiciendist, consectetur adipisicing elit. Magnam, officiis! Quas, laborum numquam. Ipsa, amet maiores vero reiciendis"
+about_footer_body = "I aim to create a safe environment while tailoring you’re session to your specific needs. I am a Neuromuscular Massage Therapist which means I re-educate your muscles to it’s natural resting point. It’s what I like to call the “Real Work” not the “Fake/Fluffy Work”.  \nI also offer other modalities such as Swedish, Deep Tissue, Trigger Point, Myofascial Techniques, Sports Massage, etc."
 about_footer_subtitle = "Let's Connect"
 about_footer_title = "Schedule an Appointment"
 [columns.column_four]
