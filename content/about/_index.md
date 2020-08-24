@@ -1,9 +1,10 @@
 +++
 Title = "About"
-about_subtitle = "My About Subtitle"
-about_title = "About Complete Muscle Therapy"
+about_subtitle = "About Complete Muscle Therapy"
+about_title = "& Your Massage Therapist"
 meta_description = ""
 meta_title = ""
+title_tag = ""
 [about_footer]
 about_button_label = "Book Now"
 about_button_link = "/bookings"
